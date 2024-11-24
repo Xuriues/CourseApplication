@@ -1,0 +1,785 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.changeBody input[type="submit"]
+{
+	margin-top: 200px;
+	position: relative;
+	margin-top: 20px;
+	width: 30%;
+	margin-left: 35%;
+}
+.footer
+{
+	height: 20px;
+	width: 100%;
+	background-color: rgba(0,0,0,0.88);
+	position: relative;
+	top: 100%;
+}
+/* Apply Course Page */
+.box-applycourse label
+{
+	color: black;
+	font-size: 150%;
+}
+.box-applycourse
+{
+	background: rgba(201,201,201,1.00);
+	width: 700px;
+	padding: 40px;
+	position: absolute;
+	top: 58%;
+	left: 50%;
+	transform:  translate(-50%,-50%);
+	text-align: center;
+	border-radius: 15px;
+}
+.box-applycourse input[type ="text"],.box-applycourse input[type ="password"], .box-applycourse input[type ="email"],.box-applycourse input[type ="tel"],.box-applycourse input[type ="number"], .box-applycourse input[type="date"]
+{
+	border: 0;
+	margin-top: 30px;
+	margin-left: 150px;
+	display: block;
+	text-align: center;
+	border: 2px solid #1A5276;
+	padding: 14px 10px;
+	width: 300px;
+	outline: none;
+	border-radius: 14px;
+	transition: 0.25s;
+}
+.box-applycourse input[type ="text"]:focus,.box-applycourse input[type ="password"]:focus,.box-applycourse input[type ="email"]:focus,.box-applycourse input[type ="tel"]:focus,.box-applycourse input[type="date"]:focus
+{
+	border: 2.5px solid black;
+}
+.box-applycourse input[type="submit"] 
+{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid black;
+	padding: 14px 40px;
+	outline: none;
+	color: black;
+	width: 75%;
+	border-radius: 18px;
+	transition: 0.25s;
+	cursor: pointer;
+}
+.box-applycourse input[type="submit"]:hover
+{
+	background: #1A5276;
+}
+
+
+/* Edit Course Page */
+.box-editcourse label
+{
+	color: black;
+	font-size: 150%;
+}
+.box-editcourse input[type="radio"]
+{
+	margin-top:20px;
+	color: white;
+}
+.box-editcourse
+{
+	background: rgba(201,201,201,1.00);
+	width: 700px;
+	padding: 40px;
+	position: absolute;
+	top: 58%;
+	left: 50%;
+	transform:  translate(-50%,-50%);
+	text-align: center;
+	border-radius: 15px;
+}
+.box-editcourse h2
+{
+	margin-top: 20px;
+}
+.box-editcourse h1, .box-editcourse h2
+{
+	color: black;
+	text-transform: uppercase;
+	font-weight: 500;
+	
+}
+.box-editcourse input[type ="text"],.box-editcourse input[type ="password"], .box-editcourse input[type ="email"],.box-editcourse input[type ="tel"],.box-editcourse input[type ="number"], .box-editcourse input[type="date"]
+{
+	border: 0;
+	margin-top: 30px;
+	margin-left: 150px;
+	display: block;
+	text-align: center;
+	border: 2px solid #1A5276;
+	padding: 14px 10px;
+	width: 300px;
+	outline: none;
+	border-radius: 14px;
+	transition: 0.25s;
+}
+.box-editcourse input[type ="text"]:focus,.box-editcourse input[type ="password"]:focus,.box-editcourse input[type ="email"]:focus,.box-editcourse input[type ="tel"]:focus,.box-editcourse input[type="date"]:focus
+{
+	border: 2.5px solid black;
+}
+.box-editcourse input[type="submit"] 
+{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid black;
+	padding: 14px 40px;
+	outline: none;
+	color: black;
+	width: 75%;
+	border-radius: 18px;
+	transition: 0.25s;
+	cursor: pointer;
+}
+.box-editcourse input[type="submit"]:hover
+{
+	background: #1A5276;
+}
+
+/* Edit User Adminpanel */
+#editReg
+{
+	height: 120vh;
+}
+.box-editreg label
+{
+	color: black;
+	font-size: 150%;
+}
+.box-editreg input[type="radio"]
+{
+	margin-top:20px;
+	color: white;
+}
+.box-editreg
+{
+	background: rgba(201,201,201,1.00);
+	width: 700px;
+	padding: 40px;
+	position: absolute;
+	top: 70%;
+	left: 50%;
+	transform:  translate(-50%,-50%);
+	text-align: center;
+	border-radius: 15px;
+}
+.box-editreg h2
+{
+	margin-top: 20px;
+}
+.box-editreg h1, .box-editreg h2
+{
+	color: black;
+	text-transform: uppercase;
+	font-weight: 500;
+	
+}
+.box-editreg input[type ="text"],.box-editreg input[type ="password"], .box-editreg input[type ="email"],.box-editreg input[type ="tel"],.box-editreg input[type ="number"], .box-editreg input[type="date"]
+{
+	border: 0;
+	margin-top: 30px;
+	margin-left: 150px;
+	display: block;
+	text-align: center;
+	border: 2px solid #1A5276;
+	padding: 14px 10px;
+	width: 300px;
+	outline: none;
+	border-radius: 14px;
+	transition: 0.25s;
+}
+.box-editreg input[type ="text"]:focus,.box-editreg input[type ="password"]:focus,.box-editreg input[type ="email"]:focus,.box-editreg input[type ="tel"]:focus,.box-editreg input[type="date"]:focus
+{
+	border: 2.5px solid black;
+}
+.box-editreg input[type="submit"] 
+{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid black;
+	padding: 14px 40px;
+	outline: none;
+	color: black;
+	width: 75%;
+	border-radius: 18px;
+	transition: 0.25s;
+	cursor: pointer;
+}
+.box-editreg input[type="submit"]:hover
+{
+	background: #1A5276;
+}
+.footerProfile
+{
+	height: 20px;
+	width: 100%;
+	background-color: rgba(0,0,0,0.88);
+	position: relative;
+	top: 120%;
+}
+
+footer
+{
+	color: white;
+	text-align: center;
+}
+.admin h2 
+{
+	margin-left: 2%;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+input[type="submit"]:hover
+{
+	background: #1A5276;
+}
+
+input[type="submit"] 
+{
+	border: 0;
+	background: none;
+	display: block;
+	text-align: center;
+	border: 2px solid black;
+	padding: 14px 40px;
+	outline: none;
+	color: black;
+	width: 100%;
+	border-radius: 18px;
+	transition: 0.25s;
+	cursor: pointer;
+}
+#tablecontainer
+{	
+	margin-top: 30px;
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	height: 100vh;
+	border: 1px solid white;
+}
+table 
+{
+	width: 100%;
+	height: 100%;
+	border:  1px solid black;
+	background-color:  rgba(220,220,220); 
+}
+th
+{
+	font-weight: bold;
+}
+td
+{
+	text-align: center;
+}
+th,td
+{
+	border: 1px solid black;
+}
+/* Edit Course Box */
+#insertCourse
+{
+	height: 150vh;
+}
+.box-insertcourse label
+{
+	color: black;
+	font-size: 150%;
+}
+.box-insertcourse input[type="radio"]
+{
+	margin-top:20px;
+	color: white;
+}
+.box-insertcourse
+{
+	background: rgba(201,201,201,1.00);
+	width: 700px;
+	padding: 40px;
+	position: absolute;
+	top: 75%;
+	left: 50%;
+	transform:  translate(-50%,-50%);
+	text-align: center;
+	border-radius: 15px;
+}
+.box-insertcourse h2
+{
+	margin-top: 20px;
+}
+.box-insertcourse h1, .box-insertcourse h2
+{
+	color: black;
+	text-transform: uppercase;
+	font-weight: 500;
+	
+}
+.box-insertcourse input[type ="text"],.box-insertcourse input[type ="password"], .box-insertcourse input[type ="email"],.box-insertcourse input[type ="tel"],.box-insertcourse input[type ="number"], .box-editcourse textarea
+{
+	border: 0;
+	margin-top: 30px;
+	margin-left: 150px;
+	display: block;
+	text-align: center;
+	border: 2px solid #1A5276;
+	padding: 14px 10px;
+	width: 300px;
+	outline: none;
+	border-radius: 14px;
+	transition: 0.25s;
+}
+.box-insertcourse input[type ="text"]:focus,.box-insertcourse input[type ="password"]:focus,.box-insertcourse input[type ="email"]:focus,.box-insertcourse input[type ="tel"]:focus
+{
+	border: 2.5px solid black;
+}
+.box-insertcourse input[type="submit"] 
+{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid black;
+	padding: 14px 40px;
+	outline: none;
+	color: black;
+	width: 75%;
+	border-radius: 18px;
+	transition: 0.25s;
+	cursor: pointer;
+}
+.box-insertcourse input[type="submit"]:hover
+{
+	background: #1A5276;
+}
+
+/* Profile Box */
+#profileBody
+{
+	height: 150vh;
+}
+.box-profile label
+{
+	color: black;
+	font-size: 150%;
+}
+.box-profile input[type="radio"]
+{
+	margin-top:20px;
+	color: white;
+}
+.box-profile
+{
+	background: rgba(201,201,201,1.00);
+	width: 700px;
+	padding: 40px;
+	position: absolute;
+	top: 95%;
+	left: 50%;
+	transform:  translate(-50%,-50%);
+	text-align: center;
+	border-radius: 15px;
+}
+.box-profile h2
+{
+	margin-top: 20px;
+}
+.box-profile h1, .box-profile h2
+{
+	color: black;
+	text-transform: uppercase;
+	font-weight: 500;
+	
+}
+.box-profile input[type ="text"],.box-profile input[type ="password"], .box-profile input[type ="email"],.box-profile input[type ="tel"],.box-profile input[type ="number"]
+{
+	border: 0;
+	margin-top: 30px;
+	margin-left: 150px;
+	display: block;
+	text-align: center;
+	border: 2px solid #1A5276;
+	padding: 14px 10px;
+	width: 300px;
+	outline: none;
+	border-radius: 14px;
+	transition: 0.25s;
+}
+.box-profile input[type ="text"]:focus,.box-profile input[type ="password"]:focus,.box-profile input[type ="email"]:focus,.box-profile input[type ="tel"]:focus
+{
+	border: 2.5px solid black;
+}
+.box-profile input[type="submit"] 
+{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid black;
+	padding: 14px 40px;
+	outline: none;
+	color: black;
+	width: 75%;
+	border-radius: 18px;
+	transition: 0.25s;
+	cursor: pointer;
+}
+.box-profile input[type="submit"]:hover
+{
+	background: #1A5276;
+}
+
+/* Login */
+.box
+{
+	width: 500px;
+	padding: 40px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform:  translate(-50%,-50%);
+	background: rgba(201,201,201,1.00);
+	text-align: center;
+	border-radius: 24px;
+}
+.box h1
+{
+	color: black;
+	text-transform: uppercase;
+	font-weight: 500;
+	
+}
+.box input[type ="text"],.box input[type ="password"]
+{
+	border: 0;
+	background: white;
+	display: block;
+	margin: 80px auto;
+	text-align: center;
+	border: 2px solid #1A5276;
+	padding: 14px 10px;
+	width: 300px;
+	outline: none;
+	background-color: white;
+	border-radius: 24px;
+	transition: 0.25s;
+}
+.box input[type ="text"]:focus,.box input[type ="password"]:focus
+{
+	width: 380px;
+	border-color: black;
+}
+.box input[type="submit"] 
+{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	width: 80%;
+	border: 2px solid black;
+	padding: 14px 40px;
+	outline: none;
+	color: black;
+	border-radius: 24px;
+	transition: 0.25s;
+	cursor: pointer;
+}
+.box input[type="submit"]:hover
+{
+	background: #1A5276;
+}
+
+/* Sign Up */
+#signup
+{
+	height: 120vh;
+}
+.box-signup label
+{
+	color: black;
+	font-size: 150%;
+}
+.box-signup input[type="radio"]
+{
+	margin-top:20px;
+	color: white;
+}
+.box-signup
+{
+	background: rgba(201,201,201,1.00);
+	width: 700px;
+	padding: 40px;
+	position: absolute;
+	top: 70%;
+	left: 50%;
+	transform:  translate(-50%,-50%);
+	text-align: center;
+	border-radius: 15px;
+}
+.box-signup h2
+{
+	margin-top: 20px;
+}
+.box-signup h1, .box-signup h2
+{
+	color: black;
+	text-transform: uppercase;
+	font-weight: 500;
+	
+}
+.box-signup input[type ="text"],.box-signup input[type ="password"], .box-signup input[type ="email"],.box-signup input[type ="tel"],.box-signup input[type ="number"], .box-signup input[type="date"]
+{
+	border: 0;
+	margin-top: 30px;
+	margin-left: 150px;
+	display: block;
+	text-align: center;
+	border: 2px solid #1A5276;
+	padding: 14px 10px;
+	width: 300px;
+	outline: none;
+	border-radius: 14px;
+	transition: 0.25s;
+}
+.box-signup input[type ="text"]:focus,.box-signup input[type ="password"]:focus,.box-signup input[type ="email"]:focus,.box-signup input[type ="tel"]:focus,.box-signup input[type="date"]
+{
+	border: 2.5px solid black;
+}
+.box-signup input[type="submit"] 
+{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	border: 2px solid black;
+	padding: 14px 40px;
+	outline: none;
+	color: black;
+	width: 75%;
+	border-radius: 18px;
+	transition: 0.25s;
+	cursor: pointer;
+}
+.box-signup input[type="submit"]:hover
+{
+	background: #1A5276;
+}
+
+/* Login */
+.box
+{
+	width: 500px;
+	padding: 40px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform:  translate(-50%,-50%);
+	background: rgba(201,201,201,1.00);
+	text-align: center;
+	border-radius: 24px;
+}
+.box h1
+{
+	color: black;
+	text-transform: uppercase;
+	font-weight: 500;
+	
+}
+.box input[type ="text"],.box input[type ="password"]
+{
+	border: 0;
+	background: white;
+	display: block;
+	margin: 80px auto;
+	text-align: center;
+	border: 2px solid #1A5276;
+	padding: 14px 10px;
+	width: 300px;
+	outline: none;
+	background-color: white;
+	border-radius: 24px;
+	transition: 0.25s;
+}
+.box input[type ="text"]:focus,.box input[type ="password"]:focus
+{
+	width: 380px;
+	border-color: black;
+}
+.box input[type="submit"] 
+{
+	border: 0;
+	background: none;
+	display: block;
+	margin: 20px auto;
+	text-align: center;
+	width: 80%;
+	border: 2px solid black;
+	padding: 14px 40px;
+	outline: none;
+	color: black;
+	border-radius: 24px;
+	transition: 0.25s;
+	cursor: pointer;
+}
+.box input[type="submit"]:hover
+{
+	background: #1A5276;
+}
+/* Nav */
+nav
+{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	min-height: 8vh;
+	background-color: rgba(0,0,0,0.88);
+	font-family: 'Raleway', sans-serif;
+}
+.logo
+{
+	color: rgba(251,251,251,1.00);
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-size: 20px;
+}
+.nav-links
+{
+	display: flex;
+	width: 40%;
+	justify-content: space-around;
+}
+.nav-links a
+{
+	text-decoration: none;
+	letter-spacing: 3px;
+	font-weight: bold;
+	font-size: 15px;
+	color: rgba(251,251,251,1.00);
+}
+.nav-links a:focus
+{
+	color: black;
+}
+.nav-links li 
+{
+	list-style: none;
+}
+.burger
+{
+	display: none;
+	cursor: pointer;
+}
+.burger div
+{
+	width: 25px;
+	height: 3px;
+	background-color: rgba(251,251,251,1.00);
+	margin: 5px;
+	transition: all 0.3s ease; 
+}
+@media screen and (max-width:1080px)
+{
+	.nav-links
+	{
+		width: 60%;
+	}
+}
+
+@media screen and (max-width:760px)
+{
+	body
+	{
+		overflow-x: hidden;
+	}
+	.nav-links
+	{
+		position: absolute;
+		right: 0px;
+		height: 100vh;
+		top: 8vh;
+		background-color: rgba(0,0,0,0.88);
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 60%;
+		transform: translateX(100%);
+		transition: transform 0.5s ease-in;
+		z-index: 3;
+	}
+	.nav-links li
+	{
+		opacity: 0;
+	}
+	.burger
+	{
+		display: block;
+	}
+	#tablecontainer
+	{
+		height: 200vh;
+	}
+}
+
+.nav-active
+{
+	transform: translateX(0%);
+}
+
+@keyframes navLinkFades{
+	from
+	{
+		opacity: 0;
+		transform: translateX(50px);
+	}
+	to
+	{
+		opacity: 1;
+		transform: translateX(0px);
+	}
+}
+
+.toggle .line1{
+	transform:  rotate(-45deg) translate(-5px,6px)
+}
+.toggle .line2{
+	opacity: 0;
+}
+.toggle .line3{
+		transform:  rotate(45deg) translate(-5px,-6px)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
